@@ -16,6 +16,18 @@ input[type=text], select {
     width: 50%;
   }
 
+  label.error{
+    color: red;
+  }
+
+  input.error{
+    border: 2px solid red;
+  }
+
+  input.error:focus{
+    border: 2px solid red;
+  }
+
   /* .button {
     background-color: #4CAF50;
     border: none;
